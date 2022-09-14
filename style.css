@@ -1,0 +1,116 @@
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  color: #000;
+  display: block;
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
+  font-size: 15.5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.grid {
+  height: 30px;
+  position: relative;
+  bottom: 4px;
+}
+
+.signbutton {
+  background-color: #4885ed;
+  color: #fff;
+  border: none;
+  width: 90px;
+  border-radius: 3px;
+  padding: 10px 10px;
+  position: relative;
+  bottom: 7px;
+  font-weight: bold;
+}
+
+.logo {
+  margin-top: 125px;
+  margin-bottom: 50px;
+}
+
+.logo img{
+  height: auto;
+  width: 340px;
+}
+
+.bar {
+  margin: none;
+  padding: none;
+  width: 700px;
+  border-radius: 30px;
+  border: 1px solid #dcdcdc;
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.search-icon{
+  height: auto;
+  width: 20px;
+  position: relative;
+  right: 50px;
+  opacity: 80%;
+}
+
+.searchbar {
+  padding: none;
+  height: 50px;
+  border: none;
+  width: 500px;
+  font-size: 20px;
+  outline: none;
+  font-family: 'Open Sans', sans-serif;
+  opacity: 90%;
+  right: 30px;
+  position: relative;
+}
+
+.voice {
+  height: 20px;
+  position: relative;
+  top: 5px;
+  left: 50px;
+}
+
+.SocialMedias {
+  margin-top: 30px;
+}
+
+.socialmedia {
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.socialmedia img{
+  height: auto;
+  width: 70px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.socialmedia:hover {
+  background-color: #e6e6e6;
+  border-radius: 5px;
+}
+
+.socialmedia:focus {
+  border: 1px solid #4885ed;
+  padding: 9px 19px;
+}
